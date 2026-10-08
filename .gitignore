@@ -1,0 +1,26 @@
+
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local HTTPS certificates
+certs/
+
+# Local financial data
+data/
+storage/
+exports/
+*.sqlite
+*.sqlite3
+*.db
+
+# macOS
+.DS_Store
